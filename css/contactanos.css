@@ -1,0 +1,45 @@
+.contactosContenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .cajaContacto {
+    width: 300px;
+    text-align: center;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .cajaContacto h2 {
+    font-size: 24px;
+    outline: 2px solid azure;
+  }
+  
+  .cajaContacto img {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .cajaContacto p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .cajaContacto ul {
+    background-color: azure;
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cajaContacto li {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
